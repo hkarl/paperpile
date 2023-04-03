@@ -28764,6 +28764,39 @@
   doi       = "10.1145/1367064.1367077"
 }
 
+@ARTICLE{Ha2008-hj,
+  title     = "{CUBIC}: a new {TCP-friendly} high-speed {TCP} variant",
+  author    = "Ha, Sangtae and Rhee, Injong and Xu, Lisong",
+  abstract  = "CUBIC is a congestion control protocol for TCP (transmission
+               control protocol) and the current default TCP algorithm in
+               Linux. The protocol modifies the linear window growth function
+               of existing TCP standards to be a cubic function in order to
+               improve the scalability of TCP over fast and long distance
+               networks. It also achieves more equitable bandwidth allocations
+               among flows with different RTTs (round trip times) by making the
+               window growth to be independent of RTT -- thus those flows grow
+               their congestion window at the same rate. During steady state,
+               CUBIC increases the window size aggressively when the window is
+               far from the saturation point, and the slowly when it is close
+               to the saturation point. This feature allows CUBIC to be very
+               scalable when the bandwidth and delay product of the network is
+               large, and at the same time, be highly stable and also fair to
+               standard TCP flows. The implementation of CUBIC in Linux has
+               gone through several upgrades. This paper documents its design,
+               implementation, performance and evolution as the default TCP
+               algorithm of Linux.",
+  journal   = "Oper. Syst. Rev.",
+  publisher = "Association for Computing Machinery",
+  volume    =  42,
+  number    =  5,
+  pages     = "64--74",
+  month     =  jul,
+  year      =  2008,
+  address   = "New York, NY, USA",
+  issn      = "0163-5980",
+  doi       = "10.1145/1400097.1400105"
+}
+
 @INPROCEEDINGS{ODonnell2008-ma,
   title     = "Using {BitTorrent} to distribute virtual machine images for
                classes",
