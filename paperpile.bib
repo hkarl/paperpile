@@ -19585,10 +19585,182 @@
                    https://github.com/pytorch/rl.",
   month         =  jun,
   year          =  2023,
+  file          = "All Papers/B/Bou et al. 2023 - TorchRL - A data-driven decision-making library for PyTorch.pdf",
   archivePrefix = "arXiv",
   eprint        = "2306.00577",
   primaryClass  = "cs.LG",
   arxivid       = "2306.00577"
+}
+
+@MISC{Raffin_undated-pc,
+  title       = "stable-baselines3: {PyTorch} version of Stable Baselines,
+                 reliable implementations of reinforcement learning algorithms",
+  author      = "Raffin, Antonin and Hill, Ashley and Gleave, Adam and
+                 Kanervisto, Anssi and Ernestus, Maximilian and Dormann, Noah",
+  abstract    = "PyTorch version of Stable Baselines, reliable implementations
+                 of reinforcement learning algorithms. - GitHub -
+                 DLR-RM/stable-baselines3: PyTorch version of Stable Baselines,
+                 reliable implementations of reinforcement learning algorithms.",
+  institution = "Github",
+  file        = "All Papers/R/Raffin et al. - stable-baselines3 - PyTorch version of Stable Baselines, reliable implementations of reinforcement learning algorithms.pdf",
+  language    = "en"
+}
+
+@ARTICLE{Liang2017-ez,
+  title         = "{RLlib}: Abstractions for Distributed Reinforcement Learning",
+  author        = "Liang, Eric and Liaw, Richard and Moritz, Philipp and
+                   Nishihara, Robert and Fox, Roy and Goldberg, Ken and
+                   Gonzalez, Joseph E and Jordan, Michael I and Stoica, Ion",
+  abstract      = "Reinforcement learning (RL) algorithms involve the deep
+                   nesting of highly irregular computation patterns, each of
+                   which typically exhibits opportunities for distributed
+                   computation. We argue for distributing RL components in a
+                   composable way by adapting algorithms for top-down
+                   hierarchical control, thereby encapsulating parallelism and
+                   resource requirements within short-running compute tasks. We
+                   demonstrate the benefits of this principle through RLlib: a
+                   library that provides scalable software primitives for RL.
+                   These primitives enable a broad range of algorithms to be
+                   implemented with high performance, scalability, and
+                   substantial code reuse. RLlib is available at
+                   https://rllib.io/.",
+  month         =  dec,
+  year          =  2017,
+  file          = "All Papers/L/Liang et al. 2017 - RLlib - Abstractions for Distributed Reinforcement Learning.pdf",
+  archivePrefix = "arXiv",
+  eprint        = "1712.09381",
+  primaryClass  = "cs.AI",
+  arxivid       = "1712.09381"
+}
+
+@ARTICLE{Schaarschmidt2018-qg,
+  title         = "{LIFT}: Reinforcement Learning in Computer Systems by
+                   Learning From Demonstrations",
+  author        = "Schaarschmidt, Michael and Kuhnle, Alexander and Ellis, Ben
+                   and Fricke, Kai and Gessert, Felix and Yoneki, Eiko",
+  abstract      = "Reinforcement learning approaches have long appealed to the
+                   data management community due to their ability to learn to
+                   control dynamic behavior from raw system performance. Recent
+                   successes in combining deep neural networks with
+                   reinforcement learning have sparked significant new interest
+                   in this domain. However, practical solutions remain elusive
+                   due to large training data requirements, algorithmic
+                   instability, and lack of standard tools. In this work, we
+                   introduce LIFT, an end-to-end software stack for applying
+                   deep reinforcement learning to data management tasks. While
+                   prior work has frequently explored applications in
+                   simulations, LIFT centers on utilizing human expertise to
+                   learn from demonstrations, thus lowering online training
+                   times. We further introduce TensorForce, a TensorFlow
+                   library for applied deep reinforcement learning exposing a
+                   unified declarative interface to common RL algorithms, thus
+                   providing a backend to LIFT. We demonstrate the utility of
+                   LIFT in two case studies in database compound indexing and
+                   resource management in stream processing. Results show LIFT
+                   controllers initialized from demonstrations can outperform
+                   human baselines and heuristics across latency metrics and
+                   space usage by up to 70\%.",
+  month         =  aug,
+  year          =  2018,
+  file          = "All Papers/S/Schaarschmidt et al. 2018 - LIFT - Reinforcement Learning in Computer Systems by Learning From Demonstrations.pdf",
+  archivePrefix = "arXiv",
+  eprint        = "1808.07903",
+  primaryClass  = "cs.LG",
+  arxivid       = "1808.07903",
+  doi           = "10.1109/ICAC.2006.1662383"
+}
+
+@ARTICLE{Huang2022-zu,
+  title     = "{CleanRL}: high-quality single-file implementations of deep
+               reinforcement learning algorithms",
+  author    = "Huang, Shengyi and Dossa, Rousslan Fernand Juliendossa and Ye,
+               Chang and Braga, Jeff and Chakraborty, Dipam and Mehta, Kinal
+               and Ara{\'u}jo, Jo{\~a}o G M",
+  abstract  = "CleanRL is an open-source library that provides high-quality
+               single-file implementations of Deep Reinforcement Learning (DRL)
+               algorithms. These single-file implementations are self-contained
+               algorithm variant files such as dqn.py, ppo.py, and
+               ppo\_atari.py that individually include all algorithm variant's
+               implementation details. Such a paradigm significantly reduces
+               the complexity and the lines of code (LOC) in each implemented
+               variant, which makes them quicker and easier to understand. This
+               paradigm gives the researchers the most fine-grained control
+               over all aspects of the algorithm in a single file, allowing
+               them to prototype novel features quickly. Despite having
+               succinct implementations, CleanRL's codebase is thoroughly
+               documented and benchmarked to ensure performance is on par with
+               reputable sources. As a result, CleanRL produces a repository
+               tailor-fit for two purposes: 1) understanding all implementation
+               details of DRL algorithms and 2) quickly prototyping novel
+               features.",
+  journal   = "J. Mach. Learn. Res.",
+  publisher = "JMLR.org",
+  volume    =  23,
+  number    =  1,
+  pages     = "12585--12602",
+  month     =  jan,
+  year      =  2022,
+  keywords  = "open-source, single-file implementation, deep reinforcement
+               learning",
+  issn      = "1532-4435"
+}
+
+@ARTICLE{Hoffman2020-hr,
+  title         = "Acme: A Research Framework for Distributed Reinforcement
+                   Learning",
+  author        = "Hoffman, Matthew W and Shahriari, Bobak and Aslanides, John
+                   and Barth-Maron, Gabriel and Momchev, Nikola and
+                   Sinopalnikov, Danila and Sta{\'n}czyk, Piotr and Ramos,
+                   Sabela and Raichuk, Anton and Vincent, Damien and Hussenot,
+                   L{\'e}onard and Dadashi, Robert and Dulac-Arnold, Gabriel
+                   and Orsini, Manu and Jacq, Alexis and Ferret, Johan and
+                   Vieillard, Nino and Ghasemipour, Seyed Kamyar Seyed and
+                   Girgin, Sertan and Pietquin, Olivier and Behbahani, Feryal
+                   and Norman, Tamara and Abdolmaleki, Abbas and Cassirer,
+                   Albin and Yang, Fan and Baumli, Kate and Henderson, Sarah
+                   and Friesen, Abe and Haroun, Ruba and Novikov, Alex and
+                   Colmenarejo, Sergio G{\'o}mez and Cabi, Serkan and Gulcehre,
+                   Caglar and Le Paine, Tom and Srinivasan, Srivatsan and
+                   Cowie, Andrew and Wang, Ziyu and Piot, Bilal and de Freitas,
+                   Nando",
+  abstract      = "Deep reinforcement learning (RL) has led to many recent and
+                   groundbreaking advances. However, these advances have often
+                   come at the cost of both increased scale in the underlying
+                   architectures being trained as well as increased complexity
+                   of the RL algorithms used to train them. These increases
+                   have in turn made it more difficult for researchers to
+                   rapidly prototype new ideas or reproduce published RL
+                   algorithms. To address these concerns this work describes
+                   Acme, a framework for constructing novel RL algorithms that
+                   is specifically designed to enable agents that are built
+                   using simple, modular components that can be used at various
+                   scales of execution. While the primary goal of Acme is to
+                   provide a framework for algorithm development, a secondary
+                   goal is to provide simple reference implementations of
+                   important or state-of-the-art algorithms. These
+                   implementations serve both as a validation of our design
+                   decisions as well as an important contribution to
+                   reproducibility in RL research. In this work we describe the
+                   major design decisions made within Acme and give further
+                   details as to how its components can be used to implement
+                   various algorithms. Our experiments provide baselines for a
+                   number of common and state-of-the-art algorithms as well as
+                   showing how these algorithms can be scaled up for much
+                   larger and more complex environments. This highlights one of
+                   the primary advantages of Acme, namely that it can be used
+                   to implement large, distributed RL algorithms that can run
+                   at massive scales while still maintaining the inherent
+                   readability of that implementation. This work presents a
+                   second version of the paper which coincides with an increase
+                   in modularity, additional emphasis on offline, imitation and
+                   learning from demonstrations algorithms, as well as various
+                   new agents implemented as part of Acme.",
+  month         =  jun,
+  year          =  2020,
+  archivePrefix = "arXiv",
+  eprint        = "2006.00979",
+  primaryClass  = "cs.LG",
+  arxivid       = "2006.00979"
 }
 
 @ARTICLE{Bellavista2021-sg,
