@@ -30720,6 +30720,50 @@
   doi       = "10.1145/3355399"
 }
 
+@INPROCEEDINGS{Wang2019-cx,
+  title     = "Pigeon: an Effective Distributed, Hierarchical Datacenter Job
+               Scheduler",
+  booktitle = "Proceedings of the {ACM} Symposium on Cloud Computing",
+  author    = "Wang, Zhijun and Li, Huiyang and Li, Zhongwei and Sun, Xiaocui
+               and Rao, Jia and Che, Hao and Jiang, Hong",
+  abstract  = "In today's datacenters, job heterogeneity makes it difficult for
+               schedulers to simultaneously meet latency requirements and
+               maintain high resource utilization. The state-of-the-art
+               datacenter schedulers, including centralized, distributed, and
+               hybrid schedulers, fail to ensure low latency for short jobs in
+               large-scale and highly loaded systems. The key issues are the
+               scalability in centralized schedulers, ineffective and
+               inefficient probing and resource sharing in both distributed and
+               hybrid schedulers.In this paper, we propose Pigeon, a
+               distributed, hierarchical job scheduler based on a two-layer
+               design. Pigeon divides workers into groups, each managed by a
+               separate master. In Pigeon, upon a job arrival, a distributed
+               scheduler directly distribute tasks evenly among masters with
+               minimum job processing overhead, hence, preserving highest
+               possible scalability. Meanwhile, each master manages and
+               distributes all the received tasks centrally, oblivious of the
+               job context, allowing for full sharing of the worker pool at the
+               group level to maximize multiplexing gain. To minimize the
+               chance of head-of-line blocking for short jobs and avoid
+               starvation for long jobs, two weighted fair queues are employed
+               in each master to accommodate tasks from short and long jobs,
+               separately, and a small portion of the workers are reserved for
+               short jobs. Evaluation via theoretical analysis, trace-driven
+               simulations, and a prototype implementation shows that Pigeon
+               significantly outperforms Sparrow, a representative distributed
+               scheduler, and Eagle, a hybrid scheduler.",
+  publisher = "Association for Computing Machinery",
+  pages     = "246--258",
+  series    = "SoCC '19",
+  month     =  nov,
+  year      =  2019,
+  address   = "New York, NY, USA",
+  keywords  = "resource management, datacenter, Job scheduling",
+  location  = "Santa Cruz, CA, USA",
+  isbn      = "9781450369732",
+  doi       = "10.1145/3357223.3362728"
+}
+
 @ARTICLE{Xie2019-mp,
   title     = "Pay as Your Service Needs: An {Application-Driven} Pricing
                Approach for the Internet Economics",
