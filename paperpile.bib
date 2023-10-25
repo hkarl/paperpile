@@ -68,6 +68,55 @@
   arxivid       = "1712.09381"
 }
 
+@ARTICLE{Rodrigues2018-qb,
+  title         = "{Fine-Grained} Energy and Performance Profiling framework
+                   for Deep Convolutional Neural Networks",
+  author        = "Rodrigues, Crefeda Faviola and Riley, Graham and Lujan,
+                   Mikel",
+  abstract      = "There is a huge demand for on-device execution of deep
+                   learning algorithms on mobile and embedded platforms. These
+                   devices present constraints on the application due to
+                   limited resources and power. Hence, developing
+                   energy-efficient solutions to address this issue will
+                   require innovation in algorithmic design, software and
+                   hardware. Such innovation requires benchmarking and
+                   characterization of Deep Neural Networks based on
+                   performance and energy-consumption alongside accuracy.
+                   However, current benchmarks studies in existing deep
+                   learning frameworks (for example, Caffe, Tensorflow, Torch
+                   and others) are based on performance of these applications
+                   on high-end CPUs and GPUs. In this work, we introduce a
+                   benchmarking framework called ``SyNERGY'' to measure the
+                   energy and time of 11 representative Deep Convolutional
+                   Neural Networks on embedded platforms such as NVidia Jetson
+                   TX1. We integrate ARM's Streamline Performance Analyser with
+                   standard deep learning frameworks such as Caffe and CuDNNv5,
+                   to study the execution behaviour of current deep learning
+                   models at a fine-grained level (or specific layers) on image
+                   processing tasks. In addition, we build an initial
+                   multi-variable linear regression model to predict energy
+                   consumption of unseen neural network models based on the
+                   number of SIMD instructions executed and main memory
+                   accesses of the CPU cores of the TX1 with an average
+                   relative test error rate of 8.04 +/- 5.96 \%. Surprisingly,
+                   we find that it is possible to refine the model to predict
+                   the number of SIMD instructions and main memory accesses
+                   solely from the application's Multiply-Accumulate (MAC)
+                   counts, hence, eliminating the need for actual measurements.
+                   Our predicted results demonstrate 7.08 +/- 6.0 \% average
+                   relative error over actual energy measurements of all 11
+                   networks tested, except MobileNet. By including MobileNet
+                   the average relative test error increases to 17.33 +/- 12.2
+                   \%.",
+  month         =  mar,
+  year          =  2018,
+  file          = "All Papers/R/Rodrigues et al. 2018 - Fine-Grained Energy and Performance Profiling framework for Deep Convolutional Neural Networks.pdf",
+  archivePrefix = "arXiv",
+  eprint        = "1803.11151",
+  primaryClass  = "cs.PF",
+  arxivid       = "1803.11151"
+}
+
 @ARTICLE{Schaarschmidt2018-qg,
   title         = "{LIFT}: Reinforcement Learning in Computer Systems by
                    Learning From Demonstrations",
@@ -1780,6 +1829,8 @@
   doi      = "10.1016/j.jpdc.2017.08.010"
 }
 
+% The entry below contains non-ASCII chars that could not be converted
+% to a LaTeX equivalent.
 @ARTICLE{Garcia-Martin2019-cz,
   title    = "Estimation of energy consumption in machine learning",
   author   = "Garc{\'\i}a-Mart{\'\i}n, Eva and Rodrigues, Crefeda Faviola and
@@ -1805,6 +1856,7 @@
   pages    = "75--88",
   month    =  dec,
   year     =  2019,
+  file     = "All Papers/G/García-Martín et al. 2019 - Estimation of energy consumption in machine learning.pdf",
   keywords = "Machine learning; GreenAI; Energy consumption; Deep learning;
               High performance computing",
   issn     = "0743-7315",
@@ -1836,6 +1888,43 @@
               networks; Networked Systems; Algorithms;FutureInternet",
   issn     = "1573-4277",
   doi      = "10.1016/j.osn.2021.100621"
+}
+
+@ARTICLE{Desislavov2023-co,
+  title    = "Trends in {AI} inference energy consumption: Beyond the
+              performance-vs-parameter laws of deep learning",
+  author   = "Desislavov, Radosvet and Mart{\'\i}nez-Plumed, Fernando and
+              Hern{\'a}ndez-Orallo, Jos{\'e}",
+  abstract = "The progress of some AI paradigms such as deep learning is said
+              to be linked to an exponential growth in the number of
+              parameters. There are many studies corroborating these trends,
+              but does this translate into an exponential increase in energy
+              consumption? In order to answer this question we focus on
+              inference costs rather than training costs, as the former account
+              for most of the computing effort, solely because of the
+              multiplicative factors. Also, apart from algorithmic innovations,
+              we account for more specific and powerful hardware (leading to
+              higher FLOPS) that is usually accompanied with important energy
+              efficiency optimisations. We also move the focus from the first
+              implementation of a breakthrough paper towards the consolidated
+              version of the techniques one or two year later. Under this
+              distinctive and comprehensive perspective, we analyse relevant
+              models in the areas of computer vision and natural language
+              processing: for a sustained increase in performance we see a much
+              softer growth in energy consumption than previously anticipated.
+              The only caveat is, yet again, the multiplicative factor, as
+              future AI increases penetration and becomes more pervasive.",
+  journal  = "Sustainable Computing: Informatics and Systems",
+  volume   =  38,
+  pages    = "100857",
+  month    =  apr,
+  year     =  2023,
+  file     = "All Papers/D/Desislavov et al. 2023 - Trends in AI inference energy consumption - Beyond the performance-vs-parameter laws of deep learning.pdf",
+  keywords = "Artificial Intelligence; Deep learning; Inference; Energy
+              consumption; Performance analysis; Performance evaluation; AI
+              progress",
+  issn     = "2210-5379",
+  doi      = "10.1016/j.suscom.2023.100857"
 }
 
 @ARTICLE{Nomikos2020-un,
@@ -36109,6 +36198,41 @@
   pmc      = "PMC3907284"
 }
 
+@ARTICLE{Strubell2020-zt,
+  title    = "Energy and Policy Considerations for Modern Deep Learning
+              Research",
+  author   = "Strubell, Emma and Ganesh, Ananya and McCallum, Andrew",
+  abstract = "The field of artificial intelligence has experienced a dramatic
+              methodological shift towards large neural networks trained on
+              plentiful data. This shift has been fueled by recent advances in
+              hardware and techniques enabling remarkable levels of
+              computation, resulting in impressive advances in AI across many
+              applications. However, the massive computation required to obtain
+              these exciting results is costly both financially, due to the
+              price of specialized hardware and electricity or cloud compute
+              time, and to the environment, as a result of non-renewable energy
+              used to fuel modern tensor processing hardware. In a paper
+              published this year at ACL, we brought this issue to the
+              attention of NLP researchers by quantifying the approximate
+              financial and environmental costs of training and tuning neural
+              network models for NLP (Strubell, Ganesh, and McCallum 2019). In
+              this extended abstract, we briefly summarize our findings in NLP,
+              incorporating updated estimates and broader information from
+              recent related publications, and provide actionable
+              recommendations to reduce costs and improve equity in the machine
+              learning and artificial intelligence community.",
+  journal  = "AAAI",
+  volume   =  34,
+  number   =  09,
+  pages    = "13693--13696",
+  month    =  apr,
+  year     =  2020,
+  file     = "All Papers/S/Strubell et al. 2020 - Energy and Policy Considerations for Modern Deep Learning Research.pdf",
+  language = "en",
+  issn     = "2374-3468, 2374-3468",
+  doi      = "10.1609/aaai.v34i09.7123"
+}
+
 @ARTICLE{Sterz2020-oe,
   title     = "{ReactiFi}: Reactive programming of {WI-fi} firmware on mobile
                devices",
@@ -37190,6 +37314,11 @@
                  Farama-Foundation/Gymnasium at v0.29.1",
   institution = "Github",
   language    = "en"
+}
+
+@ARTICLE{noauthor_undated-vc,
+  title = "A method to estimate the energy consumption of deep neural networks",
+  file  = "All Papers/Other/A method to estimate the energy consu... - A method to estimate the energy consumption of deep neural networks.pdf"
 }
 
 @MISC{noauthor_undated-oq,
