@@ -163,6 +163,38 @@
   doi           = "10.1109/ICAC.2006.1662383"
 }
 
+@ARTICLE{Jay2018-pe,
+  title         = "Internet Congestion Control via Deep Reinforcement Learning",
+  author        = "Jay, Nathan and Rotman, Noga H and Brighten Godfrey, P and
+                   Schapira, Michael and Tamar, Aviv",
+  abstract      = "We present and investigate a novel and timely application
+                   domain for deep reinforcement learning (RL): Internet
+                   congestion control. Congestion control is the core
+                   networking task of modulating traffic sources'
+                   data-transmission rates to efficiently utilize network
+                   capacity, and is the subject of extensive attention in light
+                   of the advent of Internet services such as live video,
+                   virtual reality, Internet-of-Things, and more. We show that
+                   casting congestion control as RL enables training deep
+                   network policies that capture intricate patterns in data
+                   traffic and network conditions, and leverage this to
+                   outperform the state-of-the-art. We also highlight
+                   significant challenges facing real-world adoption of
+                   RL-based congestion control, including fairness, safety, and
+                   generalization, which are not trivial to address within
+                   conventional RL formalism. To facilitate further research
+                   and reproducibility of our results, we present a test suite
+                   for RL-guided congestion control based on the OpenAI Gym
+                   interface.",
+  month         =  oct,
+  year          =  2018,
+  file          = "All Papers/J/Jay et al. 2018 - Internet Congestion Control via Deep Reinforcement Learning.pdf",
+  archivePrefix = "arXiv",
+  eprint        = "1810.03259",
+  primaryClass  = "cs.NI",
+  arxivid       = "1810.03259"
+}
+
 % The entry below contains non-ASCII chars that could not be converted
 % to a LaTeX equivalent.
 @ARTICLE{Gawlowicz2018-dh,
@@ -30330,6 +30362,48 @@
   doi       = "10.1145/3098822.3098824"
 }
 
+@INPROCEEDINGS{Mao2017-aq,
+  title     = "Neural Adaptive Video Streaming with Pensieve",
+  booktitle = "Proceedings of the Conference of the {ACM} Special Interest
+               Group on Data Communication",
+  author    = "Mao, Hongzi and Netravali, Ravi and Alizadeh, Mohammad",
+  abstract  = "Client-side video players employ adaptive bitrate (ABR)
+               algorithms to optimize user quality of experience (QoE). Despite
+               the abundance of recently proposed schemes, state-of-the-art ABR
+               algorithms suffer from a key limitation: they use fixed control
+               rules based on simplified or inaccurate models of the deployment
+               environment. As a result, existing schemes inevitably fail to
+               achieve optimal performance across a broad set of network
+               conditions and QoE objectives.We propose Pensieve, a system that
+               generates ABR algorithms using reinforcement learning (RL).
+               Pensieve trains a neural network model that selects bitrates for
+               future video chunks based on observations collected by client
+               video players. Pensieve does not rely on pre-programmed models
+               or assumptions about the environment. Instead, it learns to make
+               ABR decisions solely through observations of the resulting
+               performance of past decisions. As a result, Pensieve
+               automatically learns ABR algorithms that adapt to a wide range
+               of environments and QoE metrics. We compare Pensieve to
+               state-of-the-art ABR algorithms using trace-driven and real
+               world experiments spanning a wide variety of network conditions,
+               QoE metrics, and video properties. In all considered scenarios,
+               Pensieve outperforms the best state-of-the-art scheme, with
+               improvements in average QoE of 12\%--25\%. Pensieve also
+               generalizes well, outperforming existing schemes even on
+               networks for which it was not explicitly trained.",
+  publisher = "Association for Computing Machinery",
+  pages     = "197--210",
+  series    = "SIGCOMM '17",
+  month     =  aug,
+  year      =  2017,
+  file      = "All Papers/M/Mao et al. 2017 - Neural Adaptive Video Streaming with Pensieve.pdf",
+  address   = "New York, NY, USA",
+  keywords  = "bitrate adaptation, video streaming, reinforcement learning",
+  location  = "Los Angeles, CA, USA",
+  isbn      = "9781450346535",
+  doi       = "10.1145/3098822.3098843"
+}
+
 @INPROCEEDINGS{Jin2017-ph,
   title     = "{NetCache}: Balancing {Key-Value} Stores with Fast {In-Network}
                Caching",
@@ -30409,6 +30483,7 @@
   series    = "EuroSys '18",
   month     =  apr,
   year      =  2018,
+  file      = "All Papers/P/Peng et al. 2018 - Optimus - an efficient dynamic resource scheduler for deep learning clusters.pdf",
   address   = "New York, NY, USA",
   keywords  = "deep learning, resource management",
   location  = "Porto, Portugal",
