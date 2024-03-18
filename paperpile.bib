@@ -1987,7 +1987,8 @@
   year     =  2021,
   file     = "All Papers/N/Nance Hall et al. 2021 - A Survey of Reconfigurable Optical Networks.pdf",
   keywords = "Reconfigurable optical networks; Data center networks; Wide area
-              networks; Networked Systems; Algorithms;FutureInternet",
+              networks; Networked Systems;
+              Algorithms;FutureInternet;ProgrammableNetworks;Optics",
   issn     = "1573-4277",
   doi      = "10.1016/j.osn.2021.100621"
 }
@@ -3900,6 +3901,7 @@
   number    =  1,
   pages     = "464--486",
   year      =  2019,
+  file      = "All Papers/A/Abdullah et al. 2019 - Segment Routing in Software Defined Networks - A Survey.pdf",
   keywords  = "FutureInternet;SegmentRouting",
   issn      = "1553-877X, 2373-745X",
   doi       = "10.1109/COMST.2018.2869754"
@@ -6313,6 +6315,7 @@
   number    =  3,
   pages     = "1941--1953",
   year      =  2023,
+  file      = "All Papers/W/Walrand 2023 - A Concise Tutorial on Traffic Shaping and Scheduling in Time-Sensitive Networks.pdf",
   keywords  = "FutureInternet;Switching",
   issn      = "1553-877X, 2373-745X",
   doi       = "10.1109/COMST.2023.3275038"
@@ -6782,6 +6785,7 @@
   pages     = "331--344",
   month     =  feb,
   year      =  2019,
+  file      = "All Papers/W/Wu et al. 2019 - Machine Learning at Facebook - Understanding Inference at the Edge.pdf",
   keywords  = "Facebook;Smart phones;Performance evaluation;Graphics processing
                units;Optimization;Hardware;Machine learning;Machine
                learning;Edge Inference;ATOS;MLAspects",
@@ -8461,6 +8465,35 @@
                Economics;Containerization;Pricing;Distributed Computing",
   issn      = "2575-8411",
   doi       = "10.1109/ICDCS47774.2020.00117"
+}
+
+@INPROCEEDINGS{Hardin2023-cb,
+  title     = "{DCnet}: Evaluation Of A New Data Center Network Architecture",
+  booktitle = "2023 26th Conference on Innovation in Clouds, Internet and
+               Networks and Workshops ({ICIN})",
+  author    = "Hardin, Benjamin and Comer, Douglas and Rastegarnia, Adib",
+  abstract  = "Data center workloads increasingly rely on low-latency east-west
+               traffic while also being able to dynamically move hosts for load
+               balancing purposes. The expansion of Software-Defined Networking
+               has made reconfiguring networks to accommodate diverse workloads
+               possible and efficient. However, reestablishing communication
+               after host migration can impose a relatively long delay. DCnet
+               is a previously proposed architecture that assigns each host a
+               virtual MAC address so it can move within the data center while
+               retaining its original MAC and IP addresses. This paper
+               evaluates the DCnet approach and compares its performance to
+               traditional SDN reactive forwarding flow rule management.
+               Latency and throughput are evaluated in an emulated environment
+               utilizing Mininet, ONOS, and iPerf software. We show that DCnet
+               matches reactive forwarding latency and steady-state throughput
+               while improving on initial first-ping latency.",
+  publisher = "IEEE",
+  pages     = "11--15",
+  month     =  mar,
+  year      =  2023,
+  file      = "All Papers/H/Hardin et al. 2023 - DCnet - Evaluation Of A New Data Center Network Architecture.pdf",
+  issn      = "2472-8144, 2162-3414",
+  doi       = "10.1109/ICIN56760.2023.10073473"
 }
 
 @INPROCEEDINGS{Merizig2020-ei,
@@ -12108,7 +12141,7 @@
               computing;Routing;Switches;Software-Defined Networking
               (SDN);Software-Defined Wide Area Network (SD-WAN);deep
               reinforcement learning;Enterprise
-              Networking;FutureInternet;Mobile\_Wireless",
+              Networking;FutureInternet;Mobile\_Wireless;MLAspects",
   issn     = "1558-0008",
   doi      = "10.1109/JSAC.2020.3041385"
 }
@@ -12197,6 +12230,7 @@
   pages    = "2056--2075",
   month    =  jul,
   year     =  2021,
+  file     = "All Papers/P/Phan et al. 2021 - DeepMatch - Fine-Grained Traffic Flow Measurement in SDN With Deep Dueling Neural Networks.pdf",
   keywords = "Switches;Control systems;Process control;Monitoring;Markov
               processes;Optimization;Neural networks;Traffic flow
               measurement;Markov decision process;partially observable Markov
@@ -14778,6 +14812,7 @@
   pages    = "108--113",
   month    =  may,
   year     =  2021,
+  file     = "All Papers/D/De Coninck and Bonaventure 2021 - Multiflow QUIC - A Generic Multipath Transport Protocol.pdf",
   keywords = "Transport protocols;Satellites;Firewalls
               (computing);Downlink;Scheduling;Reliability;CongestionControl",
   issn     = "0163-6804, 1558-1896",
@@ -14809,6 +14844,7 @@
   pages    = "60--65",
   month    =  jun,
   year     =  2021,
+  file     = "All Papers/P/Parizotto et al. 2021 - Consistent Composition and Modular Data Plane Programming.pdf",
   keywords = "Switches;Programming;Software engineering;ProgrammableNetworks",
   issn     = "0163-6804, 1558-1896",
   doi      = "10.1109/MCOM.001.2000904"
@@ -14882,6 +14918,7 @@
   pages    = "120--125",
   month    =  jun,
   year     =  2021,
+  file     = "All Papers/N/Nooruzzaman and Fernando 2021 - Hyperscale Data Center Networks with Transparent HyperX Architecture.pdf",
   keywords = "Data centers;Energy consumption;Power
               demand;Scalability;Telecommunication traffic;Network
               architecture;Market research;DataCenter",
@@ -15519,38 +15556,39 @@
 }
 
 @ARTICLE{Zhou2020-ga,
-  title    = "When Vehicular Fog Computing Meets Autonomous Driving:
-              Computational Resource Management and Task Offloading",
-  author   = "Zhou, Z and Liao, H and Wang, X and Mumtaz, S and Rodriguez, J",
-  abstract = "Autonomous driving has the potential to make transportation
-              systems safer, greener and more efficient. To realize autonomous
-              driving, a great deal of in-car cutting-edge applications such as
-              augmented reality, dynamic path planning and cognitive driving
-              systems are required, which need significant computational
-              resources and near realtime response. To cope with this new
-              paradigm, vehicular fog computing (VFC) has emerged recently,
-              which migrates the computing from congested base stations (or
-              cloud servers) to nearby vehicles with under-utilized
-              computational resources. in VFC, the designs of server
-              recruitment and task offloading strategies under information
-              asymmetry and uncertainty pose new technical challenges. in this
-              article, we propose a two-stage VFC framework to address these
-              challenges. The framework consists of a contract theory based
-              vehicular computational resource management mechanism, and a
-              matching-learning based task offloading mechanism. Simulation
-              results demonstrate that the proposed framework can boost the
-              performance of VFC in terms of resource utilization efficiency
-              and task offloading delay.",
-  journal  = "IEEE Netw.",
-  volume   =  34,
-  number   =  6,
-  pages    = "70--76",
-  month    =  nov,
-  year     =  2020,
-  keywords = "Servers;Task analysis;Contracts;Autonomous vehicles;Resource
-              management;Recruitment;Edge computing;Cloud",
-  issn     = "0890-8044, 1558-156X",
-  doi      = "10.1109/MNET.001.1900527"
+  title     = "When Vehicular Fog Computing Meets Autonomous Driving:
+               Computational Resource Management and Task Offloading",
+  author    = "Zhou, Zhenyu and Liao, Haijun and Wang, Xiaoyan and Mumtaz,
+               Shahid and Rodriguez, Jonathan",
+  abstract  = "Autonomous driving has the potential to make transportation
+               systems safer, greener and more efficient. To realize autonomous
+               driving, a great deal of in-car cutting-edge applications such
+               as augmented reality, dynamic path planning and cognitive
+               driving systems are required, which need significant
+               computational resources and near realtime response. To cope with
+               this new paradigm, vehicular fog computing (VFC) has emerged
+               recently, which migrates the computing from congested base
+               stations (or cloud servers) to nearby vehicles with
+               under-utilized computational resources. in VFC, the designs of
+               server recruitment and task offloading strategies under
+               information asymmetry and uncertainty pose new technical
+               challenges. in this article, we propose a two-stage VFC
+               framework to address these challenges. The framework consists of
+               a contract theory based vehicular computational resource
+               management mechanism, and a matching-learning based task
+               offloading mechanism. Simulation results demonstrate that the
+               proposed framework can boost the performance of VFC in terms of
+               resource utilization efficiency and task offloading delay.",
+  journal   = "IEEE Netw.",
+  publisher = "IEEE",
+  volume    =  34,
+  number    =  6,
+  pages     = "70--76",
+  year      =  2020,
+  keywords  = "Servers;Task analysis;Contracts;Autonomous vehicles;Resource
+               management;Recruitment;Edge computing;Cloud",
+  issn      = "0890-8044, 1558-156X",
+  doi       = "10.1109/MNET.001.1900527"
 }
 
 @ARTICLE{Bega2020-cj,
@@ -22562,6 +22600,85 @@
   doi      = "10.1109/TNET.2018.2842798"
 }
 
+@ARTICLE{Shan2020-qa,
+  title     = "Observing and Mitigating {Micro-Burst} Traffic in Data Center
+               Networks",
+  author    = "Shan, Danfeng and Ren, Fengyuan and Cheng, Peng and Shu, Ran and
+               Guo, Chuanxiong",
+  abstract  = "Micro-burst traffic is not uncommon in data centers. It can
+               cause packet dropping, which may result in serious performance
+               degradation (e.g., Incast problem). However, current approaches
+               to mitigate micro-burst is usually ad-hoc and not based on a
+               principled understanding of the underlying behaviors. On the
+               other hand, traditional studies focus on traffic burstiness in a
+               single flow, while micro-burst traffic in the data centers could
+               occur with highly fan-in communication pattern, and its dynamic
+               behavior is still unclear. To this end, in this paper, we
+               re-examine the micro-burst traffic in typical data center
+               scenarios. We find that the evolution of micro-burst is
+               determined by both TCP's self-clocking mechanism and congestion
+               control algorithm. Besides, dynamic behaviors of micro-burst
+               under various scenarios can all be described by the time
+               derivative of queue length evolution.Our observations also
+               implicate that conventional solutions like absorbing and pacing
+               are ineffective to mitigate micro-burst traffic.Instead, senders
+               need to rapidly respond to some explicit signals of the queue
+               buildup caused by the micro-burst traffic rather than
+               independently and ineffectually pacing themselves in isolation.
+               Inspired by the findings and insights from experimental
+               observations, we propose Micro-burst-Aware Transport Control
+               Protocol (MATCP), which leverages characteristic behaviors of
+               micro-burst traffic derived from the time derivative of the
+               queue occupancy. MATCP can suppress the sharp queue length
+               increment by over $2\times $ and reduce the tail query
+               completion time by up to 84.4\%.",
+  journal   = "IEEE/ACM Trans. Netw.",
+  publisher = "IEEE Press",
+  volume    =  28,
+  number    =  1,
+  pages     = "98--111",
+  month     =  feb,
+  year      =  2020,
+  file      = "All Papers/S/Shan et al. 2020 - Observing and Mitigating Micro-Burst Traffic in Data Center Networks.pdf",
+  issn      = "1063-6692",
+  doi       = "10.1109/TNET.2019.2953793"
+}
+
+@ARTICLE{Cheng2020-cf,
+  title     = "{NAMP}: {Network-Aware} Multipathing in {Software-Defined} Data
+               Center Networks",
+  author    = "Cheng, Yingying and Jia, Xiaohua",
+  abstract  = "Data center networks employ parallel paths to perform load
+               balancing. Existing traffic splitting schemes propose weighted
+               traffic distribution across multiple paths via a centralized
+               view. An SDN controller computes the traffic splitting ratio of
+               a flow group among all the paths, and implements the ratio by
+               creating multiple rules in the flow table of OpenFlow switches.
+               However, since the number of rules in TCAM-based flow table is
+               limited, it is not scalable to implement the ideal splitting
+               ratio for every flow group. Existing solutions, WCMP and
+               Niagara, aim at reducing the maximum oversubscription of all
+               egress ports and reducing traffic imbalance, respectively.
+               However, the transmission time of flow groups, which measures
+               the quality of cloud services, is sub-optimal in existing
+               solutions that ignore heterogeneous network bandwidth. We
+               propose and implement NAMP, a multipathing scheme considering
+               the network heterogeneity, to efficiently optimize the
+               transmission time of flow groups. Experimental results show that
+               NAMP reduces the transmission time by up to 45.4\% than Niagara,
+               up to 50\% than WCMP, and up to 60\% than ECMP.",
+  journal   = "IEEE/ACM Trans. Netw.",
+  publisher = "IEEE",
+  volume    =  28,
+  number    =  2,
+  pages     = "846--859",
+  month     =  apr,
+  year      =  2020,
+  file      = "All Papers/C/Cheng and Jia 2020 - NAMP - Network-Aware Multipathing in Software-Defined Data Center Networks.pdf",
+  issn      = "1063-6692, 1558-2566",
+  doi       = "10.1109/TNET.2020.2971587"
+}
+
 @ARTICLE{Lotfi2020-hs,
   title    = "Is {Non-Neutrality} Profitable for the Stakeholders of the
               Internet Market?",
@@ -23816,6 +23933,48 @@
   doi      = "10.1109/TNET.2020.3027749"
 }
 
+@ARTICLE{Bai2021-hj,
+  title     = "One More Config is Enough: Saving ({DC)TCP} for {High-Speed}
+               Extremely {Shallow-Buffered} Datacenters",
+  author    = "Bai, Wei and Hu, Shuihai and Chen, Kai and Tan, Kun and Xiong,
+               Yongqiang",
+  abstract  = "The link speed in production datacenters is growing fast, from 1
+               Gbps to 40 Gbps or even 100 Gbps. However, the buffer size of
+               commodity switches increases slowly, e.g., from 4 MB at 1 Gbps
+               to 16 MB at 100 Gbps, thus significantly outpaced by the link
+               speed. In such extremely shallow-buffered networks, today's
+               TCP/ECN solutions, such as DCTCP, suffer from either excessive
+               packet losses or significant throughput degradation. Motivated
+               by this, we introduce BCC,1 a simple yet effective solution that
+               requires only one more ECN configuration (i.e., shared buffer
+               ECN/RED) at commodity switches. BCC operates upon real-time
+               global shared buffer utilization. When available buffer space
+               suffices, BCC delivers both high throughput and low packet loss
+               rate as prior work; When it gets insufficient, BCC automatically
+               triggers the shared buffer ECN to prevent packet loss at the
+               cost of sacrificing a small amount of throughput. BCC is readily
+               deployable with existing commodity switches. We validate BCC's
+               efficacy in a 100G testbed and evaluate its performance using
+               extensive simulations. Our results show that BCC maintains low
+               packet loss rate persistently while only slightly degrading
+               throughput when the buffer becomes insufficient. For example,
+               compared to current practice, BCC achieves up to 94.4\% lower
+               99th percentile flow completion time (FCT) for small flows while
+               only degrading average FCT for large flows by up to 3\%.1BCC:
+               Buffer-aware Active Queue Management (AQM) scheme for Congestion
+               Control in extremely shallow-buffered datacenters.",
+  journal   = "IEEE/ACM Trans. Netw.",
+  publisher = "IEEE Press",
+  volume    =  29,
+  number    =  2,
+  pages     = "489--502",
+  month     =  apr,
+  year      =  2021,
+  file      = "All Papers/B/Bai et al. 2021 - One More Config is Enough - Saving (DC)TCP for High-Speed Extremely Shallow-Buffered Datacenters.pdf",
+  issn      = "1063-6692",
+  doi       = "10.1109/TNET.2020.3032999"
+}
+
 @ARTICLE{Psychasand2021-jz,
   title    = "{High-Throughput} Bin Packing: Scheduling Jobs With Random
               Resource Demands in Clusters",
@@ -24628,6 +24787,47 @@
               chaining;resource allocation;predictive scheduling",
   issn     = "1063-6692, 1558-2566",
   doi      = "10.1109/TNET.2021.3072423"
+}
+
+@ARTICLE{Zeng2022-vj,
+  title     = "Congestion Control for {Cross-Datacenter} Networks",
+  author    = "Zeng, Gaoxiong and Bai, Wei and Chen, Ge and Chen, Kai and Han,
+               Dongsu and Zhu, Yibo and Cui, Lei",
+  abstract  = "Geographically distributed applications hosted on cloud are
+               becoming prevalent. They run on cross-datacenter network that
+               consists of multiple data center networks (DCNs) connected by a
+               wide area network (WAN). Such a cross-DC network poses
+               significant challenges in transport design because the DCN and
+               WAN segments have vastly distinct characteristics (e.g., buffer
+               depths, RTTs). In this paper, we find that existing DCN or WAN
+               transport reacting to ECN or delay alone do not (and cannot be
+               extended to) work well for such an environment. The key reason
+               is that neither of the signals, by itself only, can
+               simultaneously capture the location and degree of congestion,
+               mainly due to the discrepancies between DCN and WAN. Motivated
+               by this, we present the design and implementation of GEMINI that
+               strategically integrates both ECN and delay signals for cross-DC
+               congestion control. To achieve low latency, GEMINI bounds the
+               inter-DC latency with delay signal and prevents the intra-DC
+               packet loss with ECN. To maintain high throughput, GEMINI
+               modulates the window dynamics and maintains low buffer occupancy
+               utilizing both congestion signals. GEMINI is implemented in
+               Linux kernel and evaluated by extensive testbed experiments.
+               Results show that GEMINI achieves up to 53\%, 31\%, 76\% and 2\%
+               reduction of small flow average completion times, and up to
+               34\%, 39\%, 9\% and 58\% reduction of large flow average
+               completion times compared to TCP Cubic, DCTCP, BBR and TCP
+               Vegas.",
+  journal   = "IEEE/ACM Trans. Netw.",
+  publisher = "IEEE Press",
+  volume    =  30,
+  number    =  5,
+  pages     = "2074--2089",
+  month     =  apr,
+  year      =  2022,
+  file      = "All Papers/Z/Zeng et al. 2022 - Congestion Control for Cross-Datacenter Networks.pdf",
+  issn      = "1063-6692",
+  doi       = "10.1109/TNET.2022.3161580"
 }
 
 @ARTICLE{Chen2020-pr,
@@ -29958,7 +30158,7 @@
   month     =  aug,
   year      =  2004,
   file      = "All Papers/A/Appenzeller et al. 2004 - Sizing router buffers.pdf",
-  keywords  = "FutureInternet",
+  keywords  = "FutureInternet;Switching",
   language  = "en",
   issn      = "0146-4833, 1943-5819",
   doi       = "10.1145/1030194.1015499"
@@ -30004,7 +30204,7 @@
   file      = "All Papers/E/Enachescu et al. 2005 - Part III - routers with very small buffers.pdf",
   address   = "New York, NY, USA",
   keywords  = "all-optical routers, buffer size, TCP, congestion
-               control;FutureInternet",
+               control;FutureInternet;Switching",
   issn      = "0146-4833",
   doi       = "10.1145/1070873.1070886"
 }
@@ -31464,6 +31664,50 @@
   doi       = "10.1145/3372135"
 }
 
+@INPROCEEDINGS{Tork2020-hq,
+  title     = "Lynx: A {SmartNIC-driven} Accelerator-centric Architecture for
+               Network Servers",
+  booktitle = "Proceedings of the {Twenty-Fifth} International Conference on
+               Architectural Support for Programming Languages and Operating
+               Systems",
+  author    = "Tork, Maroun and Maudlej, Lina and Silberstein, Mark",
+  abstract  = "This paper explores new opportunities afforded by the growing
+               deployment of compute and I/O accelerators to improve the
+               performance and efficiency of hardware-accelerated computing
+               services in data centers.We propose Lynx, an accelerator-centric
+               network server architecture that offloads the server data and
+               control planes to the SmartNIC, and enables direct networking
+               from accelerators via a lightweight hardware-friendly I/O
+               mechanism. Lynx enables the design of hardware-accelerated
+               network servers that run without CPU involvement, freeing CPU
+               cores and improving performance isolation for accelerated
+               services. It is portable across accelerator architectures and
+               allows the management of both local and remote accelerators,
+               seamlessly scaling beyond a single physical machine.We implement
+               and evaluate Lynx on GPUs and the Intel Visual Compute
+               Accelerator, as well as two SmartNIC architectures - one with an
+               FPGA, and another with an 8-core ARM processor. Compared to a
+               traditional host-centric approach, Lynx achieves over 4X higher
+               throughput for a GPU-centric face verification server, where it
+               is used for GPU communications with an external database, and
+               25\% higher throughput for a GPU-accelerated neural network
+               inference service. For this workload, we show that a single
+               SmartNIC may drive 4 local and 8 remote GPUs while achieving
+               linear performance scaling without using the host CPU.",
+  publisher = "Association for Computing Machinery",
+  pages     = "117--131",
+  series    = "ASPLOS '20",
+  month     =  mar,
+  year      =  2020,
+  file      = "All Papers/T/Tork et al. 2020 - Lynx - A SmartNIC-driven Accelerator-centric Architecture for Network Servers.pdf",
+  address   = "New York, NY, USA",
+  keywords  = "smartnics, server architecture, operating systems, i/o services
+               for accelerators, hardware accelerators",
+  location  = "Lausanne, Switzerland",
+  isbn      = "9781450371025",
+  doi       = "10.1145/3373376.3378528"
+}
+
 @ARTICLE{Emek2020-kc,
   title     = "Approximating Generalized Network Design under (Dis)economies of
                Scale with Applications to Energy Efficiency",
@@ -32805,6 +33049,52 @@
   location  = "Virtual Event, USA",
   isbn      = "9781450379557",
   doi       = "10.1145/3387514.3405868"
+}
+
+@INPROCEEDINGS{Dukic2020-st,
+  title     = "Beyond the mega-data center: networking multi-data center
+               regions",
+  booktitle = "Proceedings of the Annual conference of the {ACM} Special
+               Interest Group on Data Communication on the applications,
+               technologies, architectures, and protocols for computer
+               communication",
+  author    = "Dukic, Vojislav and Khanna, Ginni and Gkantsidis, Christos and
+               Karagiannis, Thomas and Parmigiani, Francesca and Singla, Ankit
+               and Filer, Mark and Cox, Jeffrey L and Ptasznik, Anna and
+               Harland, Nick and Saunders, Winston and Belady, Christian",
+  abstract  = "The difficulty of building large data centers in dense metro
+               areas is pushing big cloud providers towards a different
+               approach to scaling: multiple smaller data centers within tens
+               of kilometers of each other, comprising a ``region''. We show
+               that networking this small number of nearby sites with each
+               other is a surprisingly challenging and multi-faceted problem.
+               We draw out the operational goals and constraints of such
+               networks, and highlight the design trade-offs involved using
+               data from Microsoft Azure's regions.Our analysis of the design
+               space shows that network topologies that achieve lower latency
+               and allow greater flexibility in data center placement are,
+               unfortunately, encumbered by their much greater cost and
+               complexity. We thus present and demonstrate a novel
+               optical-circuit-switched architecture, Iris, that lowers these
+               cost and complexity barriers, making a richer topology design
+               space more accessible to operators of regional networks. With
+               Iris, topologies which, in comparison to a simple hub-and-spoke
+               topology can increase the area in which a new DC can be placed
+               by 2-5x, can be implemented at a cost within 1.1x of the simple
+               hub-and-spoke topology, and 7x cheaper than a natural
+               packet-switched network.",
+  publisher = "Association for Computing Machinery",
+  pages     = "765--781",
+  series    = "SIGCOMM '20",
+  month     =  jul,
+  year      =  2020,
+  file      = "All Papers/D/Dukic et al. 2020 - Beyond the mega-data center - networking multi-data center regions.pdf",
+  address   = "New York, NY, USA",
+  keywords  = "region, optical switching, optical networks, data center
+               interconnect, cloud, DCI",
+  location  = "Virtual Event, USA",
+  isbn      = "9781450379557",
+  doi       = "10.1145/3387514.3406220"
 }
 
 @ARTICLE{Wang2020-rw,
@@ -34851,6 +35141,47 @@
   doi       = "10.1145/3450517"
 }
 
+@INPROCEEDINGS{Ros-Giralt2021-mb,
+  title     = "Designing data center networks using bottleneck structures",
+  booktitle = "Proceedings of the 2021 {ACM} {SIGCOMM} 2021 Conference",
+  author    = "Ros-Giralt, Jordi and Amsel, Noah and Yellamraju, Sruthi and
+               Ezick, James and Lethin, Richard and Jiang, Yuang and Feng,
+               Aosong and Tassiulas, Leandros and Wu, Zhenguo and Teh, Min Yee
+               and Bergman, Keren",
+  abstract  = "This paper provides a mathematical model of data center
+               performance based on the recently introduced Quantitative Theory
+               of Bottleneck Structures (QTBS). Using the model, we prove that
+               if the traffic pattern is
+               \textbackslashtextit\{interference-free\}, there exists a unique
+               optimal design that both minimizes maximum flow completion time
+               and yields maximal system-wide throughput. We show that
+               interference-free patterns correspond to the important set of
+               patterns that display data locality properties and use these
+               theoretical insights to study three widely used
+               interconnects---fat-trees, folded-Clos and dragonfly topologies.
+               We derive equations that describe the optimal design for each
+               interconnect as a function of the traffic pattern. Our model
+               predicts, for example, that a 3-level folded-Clos interconnect
+               with radix 24 that routes 10\% of the traffic through the spine
+               links can reduce the number of switches and cabling at the core
+               layer by 25\% without any performance penalty. We present
+               experiments using production TCP/IP code to empirically validate
+               the results and provide tables for network designers to identify
+               optimal designs as a function of the size of the interconnect
+               and traffic pattern.",
+  publisher = "Association for Computing Machinery",
+  pages     = "319--348",
+  series    = "SIGCOMM '21",
+  month     =  aug,
+  year      =  2021,
+  file      = "All Papers/R/Ros-Giralt et al. 2021 - Designing data center networks using bottleneck structures.pdf",
+  address   = "New York, NY, USA",
+  keywords  = "model, max-min, design, data center, bottleneck structure",
+  location  = "Virtual Event, USA",
+  isbn      = "9781450383837",
+  doi       = "10.1145/3452296.3472898"
+}
+
 @ARTICLE{Pateria2021-nh,
   title     = "Hierarchical Reinforcement Learning: A Comprehensive Survey",
   author    = "Pateria, Shubham and Subagdja, Budhitama and Tan, Ah-Hwee and
@@ -35848,6 +36179,39 @@
   doi       = "10.1145/3485129"
 }
 
+@INPROCEEDINGS{Sharafzadeh2021-ng,
+  title     = "A high-resolution study of data center traffic at its origin",
+  booktitle = "Proceedings of the 17th International Conference on emerging
+               Networking {EXperiments} and Technologies",
+  author    = "Sharafzadeh, Erfan and Ghorbani, Soudeh",
+  abstract  = "High-resolution studies of data center traffic at the network
+               core uncover short-term bursty traffic patterns, periods of high
+               buffer utilization that last for tens of microseconds and lead
+               to packet loss and longer flow completion time tails. While
+               recent attention has been directed towards studying the bursty
+               traffic at the network core, less heed has been given to the
+               origins of bursty traffic, e.g., host machines. In this study,
+               we try to perform high-resolution traffic measurements in the
+               host networking stack to quantify the impact of system software
+               components on traffic burstiness. We enforce per-packet
+               timestamping on the datapath using various techniques like NIC
+               timestamping, eBPF, and direct kernel source modification and
+               measure the gaps between egress packets under various
+               configurations. We provide preliminary findings on how process
+               scheduling can affect traffic burstiness.",
+  publisher = "Association for Computing Machinery",
+  pages     = "467--468",
+  series    = "CoNEXT '21",
+  month     =  dec,
+  year      =  2021,
+  file      = "All Papers/S/Sharafzadeh and Ghorbani 2021 - A high-resolution study of data center traffic at its origin.pdf",
+  address   = "New York, NY, USA",
+  keywords  = "network stacks, microbursts, data center networks",
+  location  = "Virtual Event, Germany",
+  isbn      = "9781450390989",
+  doi       = "10.1145/3485983.3493346"
+}
+
 @INPROCEEDINGS{De_Ruiter2021-ez,
   title     = "Next-generation internet at terabit speed: {SCION} in {P4}",
   booktitle = "Proceedings of the 17th International Conference on emerging
@@ -36174,6 +36538,48 @@
   doi       = "10.1145/3485983.3494873"
 }
 
+@INPROCEEDINGS{Philip2021-tp,
+  title     = "Revisiting {TCP} congestion control throughput models \&
+               fairness properties at scale",
+  booktitle = "Proceedings of the 21st {ACM} Internet Measurement Conference",
+  author    = "Philip, Adithya Abraham and Ware, Ranysha and Athapathu,
+               Rukshani and Sherry, Justine and Sekar, Vyas",
+  abstract  = "Much of our understanding of congestion control algorithm (CCA)
+               throughput and fairness is derived from models and measurements
+               that (implicitly) assume congestion occurs in the last mile.
+               That is, these studies evaluated CCAs in ``small scale'' edge
+               settings at the scale of tens of flows and up to a few hundred
+               Mbps bandwidths. However, recent measurements show that
+               congestion can also occur at the core of the Internet on
+               inter-provider links, where thousands of flows share high
+               bandwidth links. Hence, a natural question is: Does our
+               understanding of CCA throughput and fairness continue to hold at
+               the scale found in the core of the Internet, with 1000s of flows
+               and Gbps bandwidths?Our preliminary experimental study finds
+               that some expectations derived in the edge setting do not hold
+               at scale. For example, using loss rate as a parameter to the
+               Mathis model to estimate TCP NewReno throughput works well in
+               edge settings, but does not provide accurate throughput
+               estimates when thousands of flows compete at high bandwidths. In
+               addition, BBR - which achieves good fairness at the edge when
+               competing solely with other BBR flows - can become very unfair
+               to other BBR flows at the scale of the core of the Internet. In
+               this paper, we discuss these results and others, as well as key
+               implications for future CCA analysis and evaluation.",
+  publisher = "Association for Computing Machinery",
+  pages     = "96--103",
+  series    = "IMC '21",
+  month     =  nov,
+  year      =  2021,
+  file      = "All Papers/P/Philip et al. 2021 - Revisiting TCP congestion control throughput models & fairness properties at scale.pdf",
+  address   = "New York, NY, USA",
+  keywords  = "throughput, fairness, cubic, congestion control, computer
+               networks, TCP, RENO, BBR",
+  location  = "Virtual Event",
+  isbn      = "9781450391290",
+  doi       = "10.1145/3487552.3487834"
+}
+
 @ARTICLE{Adeleke2022-lz,
   title     = "Network Traffic Generation: A Survey and Methodology",
   author    = "Adeleke, Oluwamayowa Ade and Bastin, Nicholas and Gurkan, Deniz",
@@ -36248,6 +36654,37 @@
   location  = "Virtual Event, Germany",
   isbn      = "9781450391344",
   doi       = "10.1145/3488659.3493775"
+}
+
+@INPROCEEDINGS{Narasayya2022-mu,
+  title     = "{Multi-Tenant} Cloud Data Services: {State-of-the-Art},
+               Challenges and Opportunities",
+  booktitle = "Proceedings of the 2022 International Conference on Management
+               of Data",
+  author    = "Narasayya, Vivek and Chaudhuri, Surajit",
+  abstract  = "Enterprises are moving their business-critical workloads to
+               public clouds at an accelerating pace. Multi-tenancy is a
+               crucial tenet for cloud data service providers allowing them to
+               provide services in cost-effective manner by sharing of
+               resources among tenants of the service. In this tutorial we
+               review architectures of today's cloud data services and identify
+               trends and challenges that arise in multi-tenant cloud data
+               services. We discuss techniques that have been developed for
+               enabling elasticity, providing SLAs, ensuring performance
+               isolation, and reducing cost. We conclude with open research
+               problems in cloud data services.",
+  publisher = "Association for Computing Machinery",
+  pages     = "2465--2473",
+  series    = "SIGMOD '22",
+  month     =  jun,
+  year      =  2022,
+  file      = "All Papers/N/Narasayya and Chaudhuri 2022 - Multi-Tenant Cloud Data Services - State-of-the-Art, Challenges and Opportunities.pdf",
+  address   = "New York, NY, USA",
+  keywords  = "cloud data service, disaggregation, multi-tenancy, resource
+               management, serverless",
+  location  = "Philadelphia, PA, USA",
+  isbn      = "9781450392495",
+  doi       = "10.1145/3514221.3522566"
 }
 
 @INPROCEEDINGS{Arun2022-lv,
@@ -36958,6 +37395,65 @@
   doi       = "10.23919/DATE.2017.7927143"
 }
 
+@INPROCEEDINGS{Zhao2023-nr,
+  title     = "A Survey of Data Center Network Topology Structure",
+  booktitle = "2023 25th International Conference on Advanced Communication
+               Technology ({ICACT})",
+  author    = "Zhao, Mingyao and Han, Zhijie and Du, Xiaoyu",
+  abstract  = "In the new application mode, data center network (DCN) is faced
+               with many challenges. Firstly, this paper introduces the
+               requirements of modern data center network, such as network
+               scalability, network fault tolerance, network bandwidth,
+               equipment overhead, etc. Then it introduces the characteristics
+               of the traditional data center network architecture and divides
+               the data center network into two types: switch-centered and
+               server-centered. Then, the representative structures of the two
+               types of structures are reviewed in detail, and the above
+               requirements are compared. Finally, a summary of the paper is
+               made and the future development direction is pointed out.",
+  publisher = "IEEE",
+  pages     = "303--309",
+  month     =  feb,
+  year      =  2023,
+  file      = "All Papers/Z/Zhao et al. 2023 - A Survey of Data Center Network Topology Structure.pdf",
+  keywords  = "DataCenter",
+  issn      = "1738-9445, 1738-9445",
+  doi       = "10.23919/ICACT56868.2023.10079437"
+}
+
+@INPROCEEDINGS{Xue2023-bd,
+  title     = "Review of New Data Center Network Structure",
+  booktitle = "2023 25th International Conference on Advanced Communication
+               Technology ({ICACT})",
+  author    = "Xue, Weiqiang and Han, Zhijie and Du, Xiaoyu",
+  abstract  = "Nowadays, people 's lives are increasingly inseparable from big
+               data. The development of big data has a profound impact on human
+               society. At the same time, the generation of massive data has
+               promoted the transformation of data processing methods. In this
+               development trend, cloud computing came into being. Cloud
+               computing is to provide online cloud services to network users
+               by building a large shared platform, so as to achieve on demand
+               allocation of resources. Data centers are the core
+               infrastructure of cloud computing, Therefore, the performance of
+               the data center network determines the quality of service
+               provided by cloud computing. However, traditional data center
+               networks have long been unable to meet the needs of today 's
+               society for large data centers. This paper summarizes the new
+               data center network structure pro-posed in recent years from the
+               aspects of switch-centric, server-centric, wireless data center,
+               wired and wireless combination, introduces its performance,
+               fault tolerant routing efficiency and other advantages, and
+               looks forward to the future development of data center network
+               structure.",
+  publisher = "IEEE",
+  pages     = "232--235",
+  month     =  feb,
+  year      =  2023,
+  file      = "All Papers/X/Xue et al. 2023 - Review of New Data Center Network Structure.pdf",
+  issn      = "1738-9445, 1738-9445",
+  doi       = "10.23919/ICACT56868.2023.10079689"
+}
+
 @INPROCEEDINGS{Ben_Yoo2022-db,
   title     = "Photonic Switching Technologies, Architectures, and
                {Integrated-Systems} for Future Disaggregated and Optically
@@ -37007,6 +37503,7 @@
   pages     = "1--6",
   month     =  may,
   year      =  2022,
+  file      = "All Papers/B/Ben Yoo 2022 - Photonic Switching Technologies, Architectures, and Integ ... ms for Future Disaggregated and Optically Reconfigurable Data Centers.pdf",
   keywords  = "Optics",
   isbn      = "9783903176447, 9781665479806",
   doi       = "10.23919/ONDM54585.2022.9782842"
@@ -37538,6 +38035,15 @@
   isbn      = "9781939133212"
 }
 
+@MISC{Broadcom2020-hj,
+  title    = "{BCM56070} Switch Programming Guide",
+  author   = "{Broadcom}",
+  month    =  aug,
+  year     =  2020,
+  file     = "All Papers/B/Broadcom 2020 - BCM56070 Switch Programming Guide.pdf",
+  keywords = "Switching"
+}
+
 @MISC{Whalley2021-fl,
   title        = "[No title]",
   author       = "Whalley, David and Yuan, Xin and Liu, Xiuwen",
@@ -37833,6 +38339,46 @@
   year       =  2017,
   file       = "All Papers/M/McMahan et al. 2017 - Communication-Efficient Learning of Deep Networks from Decentralized Data.pdf",
   conference = "Conference on Artificial Intelligence and Statistics"
+}
+
+@INPROCEEDINGS{Aykurt2023-nh,
+  title     = "On the Performance of {TCP} in Reconfigurable Data Center
+               Networks",
+  booktitle = "Proceedings of the 18th International Conference on Network and
+               Service Management",
+  author    = "Aykurt, Kaan and Zerwas, Johannes and Blenk, Andreas and
+               Kellerer, Wolfgang",
+  abstract  = "Today's data centers are hosting various applications under the
+               same roof. The diversity among deployed applications leads to a
+               complex traffic mix in Data Center Networks (DCNs).
+               Reconfigurable Data Center Networks (RDCNs) have been designed
+               to fulfill the demanding requirements of ever-changing data
+               center traffic. However, they pose new challenges for network
+               traffic engineering, e.g., interference between reconfigurations
+               and congestion control (CC). This raises a fundamental research
+               problem: can the current transport layer protocols handle
+               frequent network updates?This paper focuses on the Transmission
+               Control Protocol (TCP) and presents a measurement study of TCP
+               variants in RDCNs. The quantitative analysis of the measurements
+               shows that migrated flows suffer from frequent reconfigurations.
+               The effect of reconfigurations on the cost, e.g. increased Flow
+               Completion Time (FCT), depending on the traffic mix is modeled
+               with Machine Learning (ML) methods. The availability of such a
+               model will provide insights into the relationship between the
+               reconfiguration settings and the FCT. Our model explains 88\% of
+               the variance in the FCT increase under different reconfiguration
+               settings.",
+  publisher = "International Federation for Information Processing",
+  number    = "Article 46",
+  pages     = "1--9",
+  series    = "CNSM '22",
+  month     =  jan,
+  year      =  2023,
+  file      = "All Papers/A/Aykurt et al. 2023 - On the Performance of TCP in Reconfigurable Data Center Networks.pdf",
+  address   = "Laxenburg, AUT",
+  keywords  = "reconfigurable data center networks, TCP measurements",
+  location  = "Thessaloniki, Greece",
+  isbn      = "9783903176515"
 }
 
 @INPROCEEDINGS{Qizhen_Weng_Wencong_Xiao_Yinghao_Yu_Wei_Wang_Cheng_Wang_Jian_He_Yong_Li_Liping_Zhang_Wei_Lin_and_Yu_Ding2022-af,
